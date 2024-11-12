@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    transition: background 3s ease;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 2em;
+    color: #fff;
+  }
+  
+  input, button {
+    padding: 0.5em;
+    font-size: 1em;
+    margin-top: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  input {
+    width: 200px;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: #fff;
+    margin-left: 5px;
+  }
+  
+  .weather-display, .weather-forecast {
+    margin-top: 2em;
+  }
+  
+  .weather-display img, .forecast-item img {
+    width: 80px;
+    height: auto;
+    margin: 1em 0;
+  }
+  
+  .weather-forecast {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2em;
+  }
+  
+  .forecast-item {
+    text-align: center;
+    color: #fff;
+  }
+  
+  .sunny {
+    background: linear-gradient(to bottom, #FFDD89, #FF7E5F);
+  }
+  
+  .cloudy {
+    background: linear-gradient(to bottom, #D7DDE8, #757F9A);
+  }
+  
+  .rainy {
+    background: linear-gradient(to bottom, #A4AFC1, #35495E);
+  }
+  
+  .snowy {
+    background: linear-gradient(to bottom, #FFFFFF, #A9C9FF);
+  }
+  
+  .default {
+    background: linear-gradient(to bottom, #4b79a1, #283e51);
+  }
+  

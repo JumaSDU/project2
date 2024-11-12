@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movies App</title>
+  <link rel="stylesheet" href="movie.css">
+</head>
+<body>
+  <header>
+    <h1>Movies App</h1>
+    <input type="text" id="searchInput" placeholder="Search for movies...">
+  </header>
+  
+  <section id="movieGrid" class="grid"></section>
+  
+  <div id="movieModal" class="modal">
+    <div class="modal-content">
+      <span id="closeModal">&times;</span>
+      <div id="movieDetails"></div>
+    </div>
+  </div>
+  
+  <script src="movie.js"></script>
+</body>
+</html>
